@@ -1,0 +1,188 @@
+body{
+	background-color: #ffe6ff;
+	margin: 0;
+}
+
+
+
+/* ++++++++++++++++++++++++++      NAVBAR      ++++++++++++++++++++++++++ */
+#nav{
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+#nav form{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+
+.submit{
+	font-size: 30px;
+}
+
+
+/* ++++++++++++++++++++++++++      HEADER      ++++++++++++++++++++++++++ */
+#header{
+	width: auto;
+	height: 100px;
+	margin-top: 20px;
+
+}
+
+#layer{
+	width: auto;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#titolo{
+
+	    font-family: 'Oswald', sans-serif;
+	    width: 780px;
+	    max-height: 100%;
+
+}
+
+
+
+
+
+/* ++++++++++++++++++++++++++      TITOLO CENTRALE      ++++++++++++++++++++++++++ */
+#about_me{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+
+#profile_image{
+	height: 100px;
+	width: 50px;
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+#about_me_paragraph{
+
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++      SECTION      ++++++++++++++++++++++++++ */
+#section{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+#section div{
+
+	width: 66.67%;
+	margin-bottom: 120px;
+	margin-left: 40px;
+}
+
+#first{
+	margin-top: 60px;
+}
+
+
+#section ol li::marker{
+
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 30px;
+	color: tomato;
+}
+
+.titolo{
+	margin-bottom: 20px;
+}
+
+#section div p{
+	width: 70%;
+	margin-left: 14%;
+	margin-bottom: 20px;
+}
+
+
+#section div img{
+	width: 50%;
+	margin-left: 23%;
+	margin-top: 20px;	
+}
+
+
+
+
+
+/* ++++++++++++++++++++++++++      FOOTER      ++++++++++++++++++++++++++ */
+
+#footer{
+	height: 120px;
+	width: 100%;
+	background-color: rosybrown;
+	font-family: 'Oswald', sans-serif;
+}
+
+#footer h6{
+	margin:0;
+	font-size: 20px;
+	text-align: center;
+	padding: 25px;
+}
+
+
+/* ++++++++++++++++++++++++++      MEDIA QUERY      ++++++++++++++++++++++++++ */
+
+
+@media(max-width:600px){
+
+	body{
+		width: auto;
+		font-size: 0.8em;
+	}
+
+	#header{
+		height: 180px;
+	}
+
+	#section ol li{
+
+		margin: 0;
+	}
+
+	#section div{
+		width: 100%;
+
+		margin-left: 0px;
+	}		
+
+}
+
+
+@media (max-width: 1000px){
+
+	#header{
+		height: 180px;
+	}
+}
